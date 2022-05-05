@@ -1,0 +1,4 @@
+node('jnlp-ansible') {
+  checkout scm
+  sh 'ansible-playbook install.yml -i inventory main.yml'
+}
