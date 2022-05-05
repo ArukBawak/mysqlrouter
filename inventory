@@ -1,0 +1,5 @@
+[qadbserver]
+192.168.157.152 ansible_ssh_private_key_file=/home/jenkins/agent/.ssh/jenkins_agent_key ansible_ssh_common_args='-o UserKnownHostsFile=/dev/null' ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+
+[pmm_server]
+192.168.157.111 ansible_ssh_private_key_file=/home/jenkins/agent/.ssh/jenkins_agent_key ansible_ssh_common_args='-o UserKnownHostsFile=/dev/null' ansible_ssh_common_args='-o StrictHostKeyChecking=no'
