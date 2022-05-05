@@ -1,0 +1,8 @@
+---
+- name: Create user on a linux server
+  hosts: pmm_server
+  become: yes
+  gather_facts: false
+  vars:
+    - user: test_usr
+    - password: test_usr@123
